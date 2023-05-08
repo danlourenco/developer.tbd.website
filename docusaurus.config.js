@@ -25,6 +25,7 @@ const config = {
   // },
   plugins: [
     'docusaurus-tailwindcss',
+    'docusaurus-plugin-sass',
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -61,7 +62,7 @@ const config = {
           blogSidebarCount: 'ALL',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/css/custom.scss')],
         },
       }),
     ],

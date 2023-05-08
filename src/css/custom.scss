@@ -4,15 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700;800&family=IBM+Plex+Sans:wght@300;400;500;700;800&display=swap');
 
-@import 'text.css';
-@import 'prose.css';
-@import 'variables.css';
-@import 'layout.css';
-@import 'docs.css';
-@import 'navbar.css';
-@import 'sidebar.css';
-@import 'illustration.css';
-@import 'web5-quickstart.css';
+@import 'text.scss';
+@import 'prose.scss';
+@import 'variables.scss';
+@import 'layout.scss';
+@import 'docs.scss';
+@import 'navbar.scss';
+@import 'sidebar.scss';
+@import 'illustration.scss';
+@import 'web5-quickstart.scss';
 
 /* You can override the default Infima variables here. */
 :root {
