@@ -34,23 +34,22 @@ const config = {
         // sidebarPath: require.resolve('./api-sidebars.js'),
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'events',
-        path: 'events',
-        breadcrumbs: false,
-        routeBasePath: 'events',
-        sidebarPath: require.resolve('./event-sidebars.js'),
-      },
-    ],
+    // [
+    //   '@docusaurus/plugin-content-docs',
+    //   {
+    //     id: 'events',
+    //     path: 'events',
+    //     breadcrumbs: false,
+    //     routeBasePath: 'events',
+    //   },
+    // ],
     [
       '@docusaurus/plugin-content-docs',
       {
         id: 'learn',
         path: 'learn',
         breadcrumbs: false,
-        routeBasePath: 'learn',
+        routeBasePath: '/learn',
         sidebarPath: require.resolve('./learn-sidebars.js'),
       },
     ],
@@ -82,7 +81,7 @@ const config = {
           {
             id: 'ssi-sdk',
             spec: 'https://raw.githubusercontent.com/TBD54566975/ssi-service/main/doc/swagger.yaml',
-            route: '/docs/apis/ssi-service',
+            route: '/docs/api/ssi-service',
           },
         ],
         // Theme Options for modifying how redoc renders them
