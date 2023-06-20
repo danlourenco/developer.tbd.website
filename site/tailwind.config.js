@@ -9,7 +9,7 @@ module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx,md,mdx}',
     './blog/**/*.{js,jsx,ts,tsx,md,mdx}',
-    './events/**/*.{js,jsx,ts,tsx,md,mdx}',
+    // './events/**/*.{js,jsx,ts,tsx,md,mdx}',
     './learn/**/*.{js,jsx,ts,tsx,md,mdx}',
     './docs/**/*.{js,jsx,ts,tsx,md,mdx}',
   ],

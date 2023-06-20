@@ -108,6 +108,7 @@ importers:
       '@docusaurus/preset-classic': 2.4.0
       '@docusaurus/theme-common': ^2.4.1
       '@mdx-js/react': ^1.6.22
+      '@react-aria/ssr': ^3.6.0
       '@react-aria/tooltip': ^3.2.0
       '@react-aria/utils': ^3.17.0
       '@react-stately/tooltip': ^3.4.1
@@ -125,7 +126,7 @@ importers:
       react-dom: ^17.0.2
       react-player: ^2.11.2
       react-router-dom: ^6.13.0
-      redocusaurus: ^1.5.1
+      redocusaurus: ^1.6.3
       tailwind-component-classes: ^2.0.4
       tailwindcss: ^3.2.7
     dependencies:
@@ -133,6 +134,7 @@ importers:
       '@docusaurus/preset-classic': 2.4.0_sfoxds7t5ydpegc3knd667wn6m
       '@docusaurus/theme-common': 2.4.1_sfoxds7t5ydpegc3knd667wn6m
       '@mdx-js/react': 1.6.22_react@17.0.2
+      '@react-aria/ssr': 3.6.0_react@17.0.2
       '@react-aria/tooltip': 3.5.1_react@17.0.2
       '@react-aria/utils': 3.17.0_react@17.0.2
       '@react-stately/tooltip': 3.4.1_react@17.0.2

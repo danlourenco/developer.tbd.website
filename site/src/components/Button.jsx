@@ -40,10 +40,6 @@ const Button = ({
     'bg-primary-yellow dark:bg-transparent text-primary-black shadow-button-sh border-primary-black hover:shadow-button-sh-hv  ' +
     classesDarkMode;
 
-  const { pathname } = useLocation();
-
-  console.log('what', pathname);
-
   const linkContent = imageURL ? (
     <div className={cssClasses}>
       <div className="flex gap-3">
