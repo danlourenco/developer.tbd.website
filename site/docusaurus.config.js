@@ -50,7 +50,7 @@ const config = {
         id: 'learn',
         path: 'learn',
         breadcrumbs: false,
-        routeBasePath: 'learn',
+        routeBasePath: '/learn',
         sidebarPath: require.resolve('./learn-sidebars.js'),
       },
     ],
